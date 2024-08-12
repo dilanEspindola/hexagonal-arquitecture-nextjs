@@ -10,9 +10,9 @@ export const UserList = async () => {
 
   return (
     <div className="mt-10">
-      <h2 className="uppercase text-xl">user list</h2>
+      <h2 className="uppercase text-xl">list of users</h2>
 
-      <ul>
+      <ul className="py-10 px-5">
         {users.map((user) => (
           <li key={user.id}>
             {user.fullname} - @{user.username}

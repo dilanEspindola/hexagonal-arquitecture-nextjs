@@ -12,7 +12,6 @@ export const FormUser = async () => {
       body: JSON.stringify(data),
     });
     const info = await res.json();
-    console.log(info);
   };
 
   return (
